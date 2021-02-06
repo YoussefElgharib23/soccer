@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c78ee7ae-b3a6-4ff8-89bb-c80d5bb0431e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/autoptimize_47ca5368850f0ea9703913d63aad064b.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/autoptimize_47ca5368850f0ea9703913d63aad064b.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/autoptimize_dcb2de333eec7ab4ae31385ed8d6a393.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/autoptimize_dcb2de333eec7ab4ae31385ed8d6a393.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="c78ee7ae-b3a6-4ff8-89bb-c80d5bb0431e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +37,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612632908038</updated>
-      <workItem from="1612632909310" duration="9251000" />
+      <workItem from="1612632909310" duration="9947000" />
     </task>
     <servers />
   </component>
