@@ -234,3 +234,25 @@
     margin-top: 30px !important;
     margin-bottom: 0px !important;
 }
+
+.woocommerce-product-gallery {
+    opacity: 1 !important;
+}
+
+.wpb_animate_when_almost_visible {
+    opacity: 1;
+}
+
+.theiaStickySidebar:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.rs-video-2 #video-item-26:before {
+    background: #fbc02d
+}
+
+.rs-video-2 #video-item-26 i:before {
+    color: #101010
+}
