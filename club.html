@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html lang="en-US"
+    class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="//gmpg.org/xfn/11">
+    <link media="all"
+        href="https://rstheme.com/products/wordpress/khelo/wp-content/cache/autoptimize/css/autoptimize_d646c9955b03e5b587e2a836e4a338e1.css"
+        rel="stylesheet">
+    <link media="only screen and (max-width: 768px)"
+        href="https://rstheme.com/products/wordpress/khelo/wp-content/cache/autoptimize/css/autoptimize_dcb2de333eec7ab4ae31385ed8d6a393.css"
+        rel="stylesheet">
+    <title>Arsenal – Sports WordPress Theme</title>
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//s.w.org">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link rel="alternate" type="application/rss+xml" title="Sports WordPress Theme » Feed"
+        href="https://rstheme.com/products/wordpress/khelo/feed/">
+    <link rel="alternate" type="application/rss+xml" title="Sports WordPress Theme » Comments Feed"
+        href="https://rstheme.com/products/wordpress/khelo/comments/feed/">
+    <script
+        type="text/javascript">window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/rstheme.com\/products\/wordpress\/khelo\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.5.3" } };
+            !function (e, a, t) { var r, n, o, i, p = a.createElement("canvas"), s = p.getContext && p.getContext("2d"); function c(e, t) { var a = String.fromCharCode; s.clearRect(0, 0, p.width, p.height), s.fillText(a.apply(this, e), 0, 0); var r = p.toDataURL(); return s.clearRect(0, 0, p.width, p.height), s.fillText(a.apply(this, t), 0, 0), r === p.toDataURL() } function l(e) { if (!s || !s.fillText) return !1; switch (s.textBaseline = "top", s.font = "600 32px Arial", e) { case "flag": return !c([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) && (!c([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !c([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447])); case "emoji": return !c([55357, 56424, 8205, 55356, 57212], [55357, 56424, 8203, 55356, 57212]) }return !1 } function d(e) { var t = a.createElement("script"); t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t) } for (i = Array("flag", "emoji"), t.supports = { everything: !0, everythingExceptFlag: !0 }, o = 0; o < i.length; o++)t.supports[i[o]] = l(i[o]), t.supports.everything = t.supports.everything && t.supports[i[o]], "flag" !== i[o] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[i[o]]); t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function () { t.DOMReady = !0 }, t.supports.everything || (n = function () { t.readyCallback() }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function () { "complete" === a.readyState && t.readyCallback() })), (r = t.source || {}).concatemoji ? d(r.concatemoji) : r.wpemoji && r.twemoji && (d(r.twemoji), d(r.wpemoji))) }(window, document, window._wpemojiSettings);</script>
+    <script src="https://rstheme.com/products/wordpress/khelo/wp-includes/js/wp-emoji-release.min.js?ver=5.5.3"
+        type="text/javascript" defer=""></script>
+    <link rel="stylesheet" id="studio-fonts-css"
+        href="//fonts.googleapis.com/css?family=Fira+Sans%3A400%2C400i%2C500%2C600%2C700%26amp%3Bsubset%3Dlatin-ext&amp;ver=1.0.0"
+        type="text/css" media="all">
+    <link rel="preload" as="style"
+        href="https://fonts.googleapis.com/css?family=Fira%20Sans:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic&amp;display=swap&amp;ver=1606389583">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Fira%20Sans:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic&amp;display=swap&amp;ver=1606389583"
+        media="all" onload="this.media='all'"><noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Fira%20Sans:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic&#038;display=swap&#038;ver=1606389583" />
+    </noscript>
+    <script type="text/javascript"
+        src="https://rstheme.com/products/wordpress/khelo/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp"
+        id="jquery-core-js"></script>
+    <script type="text/javascript"
+        id="Total_Soft_Poll-js-extra">var objectpoll = { "ajaxurl": "https:\/\/rstheme.com\/products\/wordpress\/khelo\/wp-admin\/admin-ajax.php", "nonce": "7f9ae30b7d" };</script>
+    <script type="text/javascript"
+        id="wc-add-to-cart-js-extra">var wc_add_to_cart_params = { "ajax_url": "\/products\/wordpress\/khelo\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/products\/wordpress\/khelo\/?wc-ajax=%%endpoint%%", "i18n_view_cart": "View cart", "cart_url": "https:\/\/rstheme.com\/products\/wordpress\/khelo\/cart\/", "is_cart": "", "cart_redirect_after_add": "no" };</script>
+    <link rel="https://api.w.org/" href="https://rstheme.com/products/wordpress/khelo/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD"
+        href="https://rstheme.com/products/wordpress/khelo/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+        href="https://rstheme.com/products/wordpress/khelo/wp-includes/wlwmanifest.xml">
+    <link rel="prev" title="Chelsea" href="https://rstheme.com/products/wordpress/khelo/club/chelsea/">
+    <link rel="next" title="Liverpool" href="https://rstheme.com/products/wordpress/khelo/club/liverpool/">
+    <meta name="generator" content="WordPress 5.5.3">
+    <meta name="generator" content="WooCommerce 4.7.1">
+    <link rel="canonical" href="https://rstheme.com/products/wordpress/khelo/club/arsenal/">
+    <link rel="shortlink" href="https://rstheme.com/products/wordpress/khelo/?p=291">
+    <link rel="alternate" type="application/json+oembed"
+        href="https://rstheme.com/products/wordpress/khelo/wp-json/oembed/1.0/embed?url=https%3A%2F%2Frstheme.com%2Fproducts%2Fwordpress%2Fkhelo%2Fclub%2Farsenal%2F">
+    <link rel="alternate" type="text/xml+oembed"
+        href="https://rstheme.com/products/wordpress/khelo/wp-json/oembed/1.0/embed?url=https%3A%2F%2Frstheme.com%2Fproducts%2Fwordpress%2Fkhelo%2Fclub%2Farsenal%2F&amp;format=xml">
+    <meta name="framework" content="Redux 4.1.23">
+    <link rel="shortcut icon" type="image/x-icon"
+        href="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/fav.png"> <noscript>
+        <style>
+            .woocommerce-product-gallery {
+                opacity: 1 !important;
+            }
+        </style>
+    </noscript>
+    <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress.">
+    <meta name="generator"
+        content="Powered by Slider Revolution 6.0.9 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.">
+    <script
+        type="text/javascript">function setREVStartSize(a) { try { var b, c = document.getElementById(a.c).parentNode.offsetWidth; if (c = 0 === c || isNaN(c) ? window.innerWidth : c, a.tabw = void 0 === a.tabw ? 0 : parseInt(a.tabw), a.thumbw = void 0 === a.thumbw ? 0 : parseInt(a.thumbw), a.tabh = void 0 === a.tabh ? 0 : parseInt(a.tabh), a.thumbh = void 0 === a.thumbh ? 0 : parseInt(a.thumbh), a.tabhide = void 0 === a.tabhide ? 0 : parseInt(a.tabhide), a.thumbhide = void 0 === a.thumbhide ? 0 : parseInt(a.thumbhide), a.mh = void 0 === a.mh || "" == a.mh ? 0 : a.mh, "fullscreen" === a.layout || "fullscreen" === a.l) b = Math.max(a.mh, window.innerHeight); else { for (var d in a.gw = Array.isArray(a.gw) ? a.gw : [a.gw], a.rl) (void 0 === a.gw[d] || 0 === a.gw[d]) && (a.gw[d] = a.gw[d - 1]); for (var d in a.gh = void 0 === a.el || "" === a.el || Array.isArray(a.el) && 0 == a.el.length ? a.gh : a.el, a.gh = Array.isArray(a.gh) ? a.gh : [a.gh], a.rl) (void 0 === a.gh[d] || 0 === a.gh[d]) && (a.gh[d] = a.gh[d - 1]); var e, f = Array(a.rl.length), g = 0; for (var d in a.tabw = a.tabhide >= c ? 0 : a.tabw, a.thumbw = a.thumbhide >= c ? 0 : a.thumbw, a.tabh = a.tabhide >= c ? 0 : a.tabh, a.thumbh = a.thumbhide >= c ? 0 : a.thumbh, a.rl) f[d] = a.rl[d] < window.innerWidth ? 0 : a.rl[d]; for (var d in e = f[0], f) e > f[d] && 0 < f[d] && (e = f[d], g = d); var h = c > a.gw[g] + a.tabw + a.thumbw ? 1 : (c - (a.tabw + a.thumbw)) / a.gw[g]; b = a.gh[g] * h + (a.tabh + a.thumbh) } void 0 === window.rs_init_css && (window.rs_init_css = document.head.appendChild(document.createElement("style"))), document.getElementById(a.c).height = b, window.rs_init_css.innerHTML += "#" + a.c + "_wrapper { height: " + b + "px }" } catch (a) { console.log("Failure at Presize of Slider:" + a) } };</script>
+    <noscript>
+        <style>
+            .wpb_animate_when_almost_visible {
+                opacity: 1;
+            }
+        </style>
+    </noscript>
+    <style id="theia-sticky-sidebar-stylesheet-TSS">
+        .theiaStickySidebar:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+    <!-- Star assets -->
+    <link rel="stylesheet" href="assets/css/contact/style.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+
+    <style>
+        .rs-counter-list {
+            float: right !important;
+        }
+    </style>
+</head>
+
+<body
+    class="club-template-default single single-club postid-291 theme-khelo woocommerce-js wpb-js-composer js-comp-ver-6.2.0 vc_responsive">
+    <div id="loading" class="loading" style="display: none;">
+        <div class="rs-box">
+            <div class="rs-shadow"></div>
+            <div class="rs-gravity">
+                <div class="rs-ball"></div>
+            </div>
+        </div>
+    </div>
+    <div id="page" class="site ">
+        <header id="rs-header" class="header-transparent">
+            <div class="header-inner menu-sticky">
+                <div class="menu-area ">
+                    <div class="container">
+                        <div class="row-table r-t-l justify-content-between align-items-center">
+                            <div class="col-cell header-logo">
+                                <div class="logo-area">
+                                    <a href="index.html" rel="home">
+                                        <img style="max-height: 65px" src="assets/images/khelo-logo.png">
+                                    </a>
+                                </div>
+                                <div class="logo-area sticky-logo">
+                                    <a href="index.html" rel="home">
+                                        <img alt="Sports WordPress Theme" src="assets/images/logo_lite.png"
+                                            style="max-height: 46px">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-cell menu-responsive r-t-l" style="direction: rtl">
+                                <div>
+                                    <div class="sidebarmenu-area text-right off-border-left">
+                                        <ul class="offcanvas-icon">
+                                            <li class="nav-link-container"><a href="#" class="nav-menu-link"> <span
+                                                        class="hamburger1"></span> <span class="hamburger2"></span>
+                                                    <span class="hamburger3"></span> </a></li>
+                                        </ul>
+                                        <nav class="nav-container nav">
+                                            <ul class="sidenav offcanvas-icon">
+                                                <li class="nav-link-container"><a href="#" class="nav-menu-link"> <span
+                                                            class="hamburger1"></span> <span class="hamburger3"></span>
+                                                    </a>
+                                                </li>
+                                                <li class="widget widget_media_image" id="media_image-2">
+                                                    <a href="index.html">
+                                                        <img alt=""
+                                                            class="image wp-image-1570  attachment-full size-full"
+                                                            height="447" sizes="(max-width: 1217px) 100vw, 1217px"
+                                                            src="assets/images/logo_lite.png"
+                                                            style="max-width: 100%; height: auto;" width="1217"></a>
+                                                </li>
+                                                <li id="nav_menu-2" class="widget widget_nav_menu">
+                                                    <div class="menu-quick-links-container">
+                                                        <ul id="menu-quick-links" class="menu"
+                                                            style="display:flex; flex-direction: column">
+                                                            <li id="menu-item-1740" style="width: fit-content"
+                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1740">
+                                                                <a href="index.html">الرئيسية</a>
+                                                            </li>
+                                                            <li id="menu-item-1740" style="width: fit-content"
+                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1740">
+                                                                <a href="club-ranking.html">تصنيف النادي</a>
+                                                            </li>
+                                                            <li id="menu-item-1740" style="width: fit-content"
+                                                                class="menu-item menu-item-type-post_type menu-item-object-page current_page_item menu-item-home menu-item-1740">
+                                                                <a href="club.html"> النادي</a>
+                                                            </li>
+                                                            <li style="width: fit-content"
+                                                                class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-14 menu-item-1744"
+                                                                id="menu-item-1744">
+                                                                <a aria-current="page" href="contact.html">تواصل
+                                                                    معنا</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li id="contact_widget-2" class="widget widget_contact_widget">
+                                                    <h2 class="widget-title f-c w-c">معلومات التواصل</h2>
+                                                    <ul class="fa-ul" style="width: fit-content">
+                                                        <li class="text-right">
+                                                            New York, USA
+                                                            <i class="fa fa-globe"></i>
+                                                        </li>
+                                                        <li class="text-right">
+                                                            <a href="tel:+125427263512">+125427263512</a>
+                                                            <i class="fa fa-phone"></i>
+                                                        </li>
+                                                        <li class="text-right">
+                                                            <a href="mailto:support@rstheme.com">support@rstheme.com</a>
+                                                            <i class="fa fa-envelope"></i>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <ul class="offcanvas_social w-c">
+                                                        <li><a href="#%20" target="_blank"><span><i
+                                                                        class="fa fa-facebook"></i></span></a>
+                                                        </li>
+                                                        <li><a href="# " target="_blank"><span><i
+                                                                        class="fa fa-twitter"></i></span></a></li>
+                                                        <li><a href="# " target="_blank"><span><i
+                                                                        class="fa fa-linkedin"></i></span></a></li>
+                                                        <li><a href="# " target="_blank"><span><i
+                                                                        class="fa fa-google-plus-square"></i></span></a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                    <div class="sidebarmenu-search text-right" style="direction: ltr">
+                                        <div class="sticky_search">
+                                            <i class="glyph-icon flaticon-search"></i>
+                                        </div>
+                                        <div class="sticky_form" style="left: 0 !important;">
+                                            <form role="search" class="bs-search search-form" method="get" action="#">
+                                                <div class="search-wrap">
+                                                    <label class="screen-reader-text">Search for: </label>
+                                                    <input type="search" placeholder="ابحث ..." name="s"
+                                                        class="rtl search-input" value="">
+                                                    <button type="submit" value="Search" style="left: 0">
+                                                        <i class="glyph-icon flaticon-search"></i>
+                                                    </button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ml-2 ltr">
+                                    <nav class="nav navbar">
+                                        <div class="navbar-menu">
+                                            <div class="menu-primary-menu-container">
+                                                <ul id="primary-menu-single" class="menu">
+                                                    <li id="menu-item-20"
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-20">
+                                                        <a href="index.html">الرئيسية</a>
+                                                    </li>
+                                                    <li id="menu-item-20"
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20">
+                                                        <a href="club-ranking.html">تصنيف النادي</a>
+                                                    </li>
+                                                    <li id="menu-item-20"
+                                                        class="menu-item menu-item-type-post_type current_page_item menu-item-object-page menu-item-20">
+                                                        <a href="club.html">النادي</a>
+                                                    </li>
+                                                    <li id="menu-item-22"
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-14menu-item-22">
+                                                        <a href="contact.html" aria-current="page">تواصل معنا</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="nav-link-container mobile-menu-link"><a href="#"
+                                                class="nav-menu-link">
+                                                <span class="hamburger1"></span> <span class="hamburger2"></span> <span
+                                                    class="hamburger3"></span> </a></div>
+                                    </nav>
+                                    <nav class="nav-container mobile-menu-container">
+                                        <ul class="sidenav">
+                                            <li class="nav-link-container"><a href="#" class="nav-menu-link"> <span
+                                                        class="hamburger1"></span> <span class="hamburger3"></span> </a>
+                                            </li>
+                                            <li>
+                                                <div class="menu-primary-menu-container">
+                                                    <ul id="primary-menu-single2" class="menu text-right ml-auto">
+                                                        <li
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20">
+                                                            <a href="index.html">الرئيسية</a>
+                                                        </li>
+                                                        <li
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20">
+                                                            <a href="index.html">تصنيف النادي</a>
+                                                        </li>
+                                                        <li
+                                                            class="menu-item menu-item-type-post_type current-menu-item menu-item-object-page menu-item-20">
+                                                            <a href="club.html">النادي</a>
+                                                        </li>
+                                                        <li
+                                                            class="menu-item menu-item-type-post_type menu-item-object-pagepage_item page-item-14 current_page_item menu-item-22">
+                                                            <a href="contact.html" aria-current="page">تواصل معنا</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="social-icon-responsive">
+                                                <ul class="offcanvas_social">
+                                                    <li><a href="#%20" target="_blank"><span><i
+                                                                    class="fa fa-facebook"></i></span></a></li>
+                                                    <li><a href="#" target="_blank"><span><i
+                                                                    class="fa fa-twitter"></i></span></a>
+                                                    </li>
+                                                    <li><a href="#" target="_blank"><span><i
+                                                                    class="fa fa-linkedin"></i></span></a>
+                                                    </li>
+                                                    <li><a href="#" target="_blank"><span><i
+                                                                    class="fa fa-google-plus-square"></i></span></a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="transparent_head">
+            <div class="rs-breadcrumbs  porfolio-details">
+                <div class="breadcrumbs-single"
+                    style="background-image: url('https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/05/inner_15.jpg')">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <div class="breadcrumbs-inner bread-">
+                                    <h1 class="page-title"> Arsenal</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-contain main-space">
+            <div class="container">
+                <div class="match-slider-styles match-list upcoming-carousel owl-carousel owl-loaded owl-drag">
+                    <div class="owl-stage-outer owl-height" style="height: 215px;">
+                        <div class="owl-stage"
+                            style="transform: translate3d(-860px, 0px, 0px); transition: all 0s ease 0s; width: 2580px;">
+                            <div class="owl-item cloned" style="width: 430px;">
+                                <div class="fixture-item">
+                                    <div class="mid-sec">
+                                        <div class="medium-font"> <img width="218" height="256"
+                                                src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/4.png"
+                                                class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                alt="" loading="lazy"> Man City</div>
+                                        <div class="big-font">
+                                            <div class="top-date-sec"> <span class="match-date">April 04 2019</span>
+                                                <span class="match-time">03:00</span></div> <span
+                                                class="versase">VS</span>
+                                        </div>
+                                        <div class="medium-font"> <img width="194" height="247"
+                                                src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/2.png"
+                                                class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                alt="" loading="lazy"> Arsenal</div>
+                                    </div>
+                                    <div class="match-venue"> <span><span class="venue-text">Venue:</span> Etihad
+                                            Stadium</span></div>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 430px;">
+                                <div class="fixture-item">
+                                    <div class="mid-sec">
+                                        <div class="medium-font"> <img width="171" height="247"
+                                                src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/5.png"
+                                                class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                alt="" loading="lazy"> Barcelona</div>
+                                        <div class="big-font">
+                                            <div class="top-date-sec"> <span class="match-date">July 31 2019</span>
+                                                <span class="match-time">00:00</span></div> <span
+                                                class="versase">VS</span>
+                                        </div>
+                                        <div class="medium-font"> <img width="194" height="247"
+                                                src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/2.png"
+                                                class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                alt="" loading="lazy"> Arsenal</div>
+                                    </div>
+                                    <div class="match-venue"> <span><span class="venue-text">Venue:</span> Emirates
+                                            Stadium</span></div>
+                                </div>
+                            </div>
+                            <div class="owl-item active" style="width: 430px;">
+                                <div class="fixture-item">
+                                    <div class="mid-sec">
+                                        <div class="medium-font"> <img width="218" height="256"
+                                                src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/4.png"
+                                                class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                alt="" loading="lazy"> Man City</div>
+                                        <div class="big-font">
+                                            <div class="top-date-sec"> <span class="match-date">April 04 2019</span>
+                                                <span class="match-time">03:00</span></div> <span
+                                                class="versase">VS</span>
+                                        </div>
+                                        <div class="medium-font"> <img width="194" height="247"
+                                                src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/2.png"
+                                                class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                alt="" loading="lazy"> Arsenal</div>
+                                    </div>
+                                    <div class="match-venue"> <span><span class="venue-text">Venue:</span> Etihad
+                                            Stadium</span></div>
+                                </div>
+                            </div>
+                            <div class="owl-item" style="width: 430px;">
+                                <div class="fixture-item">
+                                    <div class="mid-sec">
+                                        <div class="medium-font"> <img width="171" height="247"
+                                                src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/5.png"
+                                                class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                alt="" loading="lazy"> Barcelona</div>
+                                        <div class="big-font">
+                                            <div class="top-date-sec"> <span class="match-date">July 31 2019</span>
+                                                <span class="match-time">00:00</span></div> <span
+                                                class="versase">VS</span>
+                                        </div>
+                                        <div class="medium-font"> <img width="194" height="247"
+                                                src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/2.png"
+                                                class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                alt="" loading="lazy"> Arsenal</div>
+                                    </div>
+                                    <div class="match-venue"> <span><span class="venue-text">Venue:</span> Emirates
+                                            Stadium</span></div>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 430px;">
+                                <div class="fixture-item">
+                                    <div class="mid-sec">
+                                        <div class="medium-font"> <img width="218" height="256"
+                                                src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/4.png"
+                                                class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                alt="" loading="lazy"> Man City</div>
+                                        <div class="big-font">
+                                            <div class="top-date-sec"> <span class="match-date">April 04 2019</span>
+                                                <span class="match-time">03:00</span></div> <span
+                                                class="versase">VS</span>
+                                        </div>
+                                        <div class="medium-font"> <img width="194" height="247"
+                                                src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/2.png"
+                                                class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                alt="" loading="lazy"> Arsenal</div>
+                                    </div>
+                                    <div class="match-venue"> <span><span class="venue-text">Venue:</span> Etihad
+                                            Stadium</span></div>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 430px;">
+                                <div class="fixture-item">
+                                    <div class="mid-sec">
+                                        <div class="medium-font"> <img width="171" height="247"
+                                                src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/5.png"
+                                                class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                alt="" loading="lazy"> Barcelona</div>
+                                        <div class="big-font">
+                                            <div class="top-date-sec"> <span class="match-date">July 31 2019</span>
+                                                <span class="match-time">00:00</span></div> <span
+                                                class="versase">VS</span>
+                                        </div>
+                                        <div class="medium-font"> <img width="194" height="247"
+                                                src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/2.png"
+                                                class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                alt="" loading="lazy"> Arsenal</div>
+                                    </div>
+                                    <div class="match-venue"> <span><span class="venue-text">Venue:</span> Emirates
+                                            Stadium</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-nav">
+                        <div class="owl-prev">prev</div>
+                        <div class="owl-next">next</div>
+                    </div>
+                    <div class="owl-dots disabled"></div>
+                </div>
+                <div class="clear-fix"></div>
+            </div>
+            <div class="container">
+                <div id="content">
+                    <div class="rs-club-details pt-70 pb-70">
+                        <article id="post-291"
+                            class="post-291 club type-club status-publish has-post-thumbnail hentry club-category-epl">
+                            <div class="row flex-row-reverse">
+                                <div class="col-md-3 col-sm-3">
+                                    <div class="club-sidebar-top">
+                                        <div class="club-logo float-right"> <img width="194" height="247"
+                                                src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/2.png"
+                                                class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                alt="" loading="lazy"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-9 col-sm-9">
+                                    <div class="club-sidebar">
+                                        <div class="club-details">
+                                            <ul class="spsoccer-team-info-list spsoccer-ul-list text-right">
+                                                <li class="f-c"> <strong>الرئيس السابق</strong> <span>David Frunk</span>
+                                                </li>
+                                                <li class="f-c"> <strong>اسم المدير</strong> <span>Steve Mark</span>
+                                                </li>
+                                                <li class="f-c"> <strong>مدرب سابق</strong> <span>Fiderel Starc</span>
+                                                </li>
+                                                <li class="f-c"> <strong>المدرب الحالي</strong> <span>Alex Zampa</span>
+                                                </li>
+                                                <li class="f-c"> <strong>موقع</strong> <span>England</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="rs-count row">
+                                        <div class="col-lg-3 col-md-3 col-sm-6">
+                                            <div class="rs-counter-list text-center">
+                                                <h2 class="rs-counter percent f-c">1890</h2>
+                                                <h3 class="f-c">تأسست في</h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 col-sm-6">
+                                            <div class="rs-counter-list text-center">
+                                                <h2 class="rs-counter percent f-c">124</h2>
+                                                <h3 class="f-c">ابطال</h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 col-sm-6">
+                                            <div class="rs-counter-list text-center">
+                                                <h2 class="rs-counter percent f-c">168</h2>
+                                                <h3 class="f-c">اللاعبين الحاليين</h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 col-sm-6">
+                                            <div class="rs-counter-list text-center">
+                                                <h2 class="rs-counter percent f-c">82</h2>
+                                                <h3 class="f-c">افضل لاعبون</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clear-fix"></div>
+                            <div class="club-details_data f-c">
+                                <ul class="nav nav-tabs">
+                                    <li class="nav-item"> <a class="nav-link active show" data-toggle="tab"
+                                            href="#club-history">تاريخ النادي </a></li>
+                                    <li class="nav-item"> <a class="nav-link" data-toggle="tab"
+                                            href="#squad-list">لاعبين </a></li>
+                                    <li class="nav-link"> <a data-toggle="tab" href="#champion"> بطل </a></li>
+                                    <li class="nav-link"> <a data-toggle="tab" href="#gallery"> صالة عرض </a></li>
+                                    <li class="nav-link"> <a data-toggle="tab" href="#jersy"> جيرسي </a></li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div id="club-history" class="club-content tab-pane active show">
+                                        <p class="text-right"><img loading="lazy" class="alignright wp-image-1667"
+                                                src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/club-details-300x200.jpg"
+                                                alt="" width="485" height="324"
+                                                srcset="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/club-details-300x200.jpg 300w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/club-details-420x280.jpg 420w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/club-details.jpg 768w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/club-details-600x400.jpg 600w"
+                                                sizes="(max-width: 485px) 100vw, 485px">من الحقائق الثابتة منذ زمن طويل
+                                            أن القارئ سيكون كذلك
+                                            يصرفه المحتوى المقروء لصفحة ما عند النظر إلى تنسيقها. ال
+                                            نقطة استخدام لوريم إيبسوم أنه يحتوي على توزيع طبيعي -إلى حد ما-
+                                            من الأحرف بدلاً من استخدام "محتوى هنا ، محتوى هنا" ، لجعله يبدو
+                                            مثل اللغة الإنجليزية المقروءة. العديد من حزم النشر المكتبي ومحرري صفحات
+                                            الويب
+                                            استخدم الآن Lorem Ipsum كنص النموذج الافتراضي ، وابحث عن "lorem
+                                            سيكشف ipsum 'العديد من مواقع الويب التي لا تزال في مهدها. العديد من سطح
+                                            المكتب
+                                            حزم النشر ومحرري صفحات الويب يستخدمون الآن لوريم إيبسوم كملفات
+                                            نص النموذج الافتراضي ، والبحث عن "lorem ipsum طفولتهم.</p>
+                                        <p class="text-right">إذا كنت ستستخدم مقطعًا من لوريم إيبسوم ، فأنت بحاجة إلى
+                                            التأكد من ذلك
+                                            ليس شيئًا محرجًا مخفيًا في منتصف النص. كل لوريم
+                                            تميل مولدات Ipsum على الإنترنت إلى تكرار الإنترنت المحدد مسبقًا
+                                            كرر الأجزاء المحددة مسبقًا حسب الضرورة ، مما يجعل هذا هو المولد الحقيقي
+                                            الأول
+                                            على شبكة الاتصال العالمية. يستخدم قاموسًا لأكثر من 200 كلمة لاتينية ، جنبًا
+                                            إلى جنب مع
+                                            حفنة من تراكيب الجمل النموذجية ، لتوليد لوريم إيبسوم الذي يبدو
+                                            معقول. لذلك فإن Lorem Ipsum الذي تم إنشاؤه يكون دائمًا خاليًا من
+                                            التكرار أو الدعابة المحقونة أو الكلمات غير المميزة وما إلى ذلك.</p>
+                                    </div>
+                                    <div id="squad-list" class=" tab-pane">
+                                        <div class="squad-list">
+                                            <div class="row">
+                                                <div class="col-md-3 col-sm-6 col-xs-6 mb-30">
+                                                    <div class="squad-list-item"> <a
+                                                            href="https://rstheme.com/products/wordpress/khelo/players/fernando-grape/"><img
+                                                                width="620" height="782"
+                                                                src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/team_2.jpg"
+                                                                class="attachment- size- wp-post-image" alt=""
+                                                                loading="lazy"
+                                                                srcset="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/team_2.jpg 620w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/team_2-238x300.jpg 238w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/team_2-420x530.jpg 420w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/team_2-600x757.jpg 600w"
+                                                                sizes="(max-width: 620px) 100vw, 620px"></a> <span
+                                                            class="name"> <a
+                                                                href="https://rstheme.com/products/wordpress/khelo/players/fernando-grape/">Fernando
+                                                                Grape</a></span> <span class="position">Forward</span>
+                                                        <span class="jersy">12</span></div>
+                                                </div>
+                                                <div class="col-md-3 col-sm-6 col-xs-6 mb-30">
+                                                    <div class="squad-list-item"> <a
+                                                            href="https://rstheme.com/products/wordpress/khelo/players/fernando-grape-2/"><img
+                                                                width="430" height="540"
+                                                                src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/11/team_1.jpg"
+                                                                class="attachment- size- wp-post-image" alt=""
+                                                                loading="lazy"
+                                                                srcset="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/11/team_1.jpg 430w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/11/team_1-239x300.jpg 239w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/11/team_1-420x527.jpg 420w"
+                                                                sizes="(max-width: 430px) 100vw, 430px"></a> <span
+                                                            class="name"> <a
+                                                                href="https://rstheme.com/products/wordpress/khelo/players/fernando-grape-2/">Fernando
+                                                                Grape</a></span> <span class="position">Forward</span>
+                                                        <span class="jersy">12</span></div>
+                                                </div>
+                                                <div class="col-md-3 col-sm-6 col-xs-6 mb-30">
+                                                    <div class="squad-list-item"> <a
+                                                            href="https://rstheme.com/products/wordpress/khelo/players/alex-grape/"><img
+                                                                width="620" height="782"
+                                                                src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/team_1.jpg"
+                                                                class="attachment- size- wp-post-image" alt=""
+                                                                loading="lazy"
+                                                                srcset="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/team_1.jpg 620w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/team_1-238x300.jpg 238w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/team_1-420x530.jpg 420w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/team_1-600x757.jpg 600w"
+                                                                sizes="(max-width: 620px) 100vw, 620px"></a> <span
+                                                            class="name"> <a
+                                                                href="https://rstheme.com/products/wordpress/khelo/players/alex-grape/">Alex
+                                                                Grape</a></span> <span class="position">Forward</span>
+                                                        <span class="jersy">19</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="champion" class="tab-pane fade">
+                                        <div class="champion-inner">
+                                            <div class="row">
+                                                <div class="col-md-3 col-sm-6 col-xs-6 mb-30">
+                                                    <div class="award-wrap">
+                                                        <div class="champion-logo"> <img
+                                                                src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/uefa.png"
+                                                                alt="Arsenal"></div>
+                                                        <div class="champion-details">
+                                                            <div class="year-details">
+                                                                <h3>UEFA Champions League</h3> <span>2002 2008 2013 2017
+                                                                </span>
+                                                            </div>
+                                                            <div class="champion-no"> 5</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 col-sm-6 col-xs-6 mb-30">
+                                                    <div class="award-wrap">
+                                                        <div class="champion-logo"> <img
+                                                                src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/awards4.png"
+                                                                alt="Arsenal"></div>
+                                                        <div class="champion-details">
+                                                            <div class="year-details">
+                                                                <h3>UEFA Europa League</h3> <span>1971–72 1983–84
+                                                                    1985–86 1992–93 1994–95</span>
+                                                            </div>
+                                                            <div class="champion-no"> 7</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 col-sm-6 col-xs-6 mb-30">
+                                                    <div class="award-wrap">
+                                                        <div class="champion-logo"> <img
+                                                                src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/awards2.png"
+                                                                alt="Arsenal"></div>
+                                                        <div class="champion-details">
+                                                            <div class="year-details">
+                                                                <h3>UEFA Super Cup</h3> <span>1998 2000 2002 2007 2010
+                                                                    2013</span>
+                                                            </div>
+                                                            <div class="champion-no"> 6</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 col-sm-6 col-xs-6 mb-30">
+                                                    <div class="award-wrap">
+                                                        <div class="champion-logo"> <img
+                                                                src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/awards1.png"
+                                                                alt="Arsenal"></div>
+                                                        <div class="champion-details">
+                                                            <div class="year-details">
+                                                                <h3>FIFA Club World Cup</h3> <span>1998 2002 2014</span>
+                                                            </div>
+                                                            <div class="champion-no"> 3</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="gallery" class="tab-pane fade">
+                                        <div class="file-list-wrap row rs-galleys ">
+                                            <div class="col-md-3">
+                                                <div class="file-list-image galley-img"><img width="450" height="450"
+                                                        src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/a.jpg"
+                                                        class="attachment-small size-small" alt="" loading="lazy"
+                                                        srcset="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/a.jpg 450w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/a-420x420.jpg 420w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/a-150x150.jpg 150w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/a-300x300.jpg 300w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/a-100x100.jpg 100w"
+                                                        sizes="(max-width: 450px) 100vw, 450px"><a
+                                                        class="image-popup zoom-icon"
+                                                        href="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/a.jpg"><i
+                                                            class="glyph-icon flaticon-add-circular-button"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="file-list-image galley-img"><img width="450" height="450"
+                                                        src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/b.jpg"
+                                                        class="attachment-small size-small" alt="" loading="lazy"
+                                                        srcset="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/b.jpg 450w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/b-420x420.jpg 420w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/b-150x150.jpg 150w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/b-300x300.jpg 300w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/b-100x100.jpg 100w"
+                                                        sizes="(max-width: 450px) 100vw, 450px"><a
+                                                        class="image-popup zoom-icon"
+                                                        href="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/b.jpg"><i
+                                                            class="glyph-icon flaticon-add-circular-button"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="file-list-image galley-img"><img width="450" height="450"
+                                                        src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/c.jpg"
+                                                        class="attachment-small size-small" alt="" loading="lazy"
+                                                        srcset="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/c.jpg 450w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/c-420x420.jpg 420w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/c-150x150.jpg 150w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/c-300x300.jpg 300w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/c-100x100.jpg 100w"
+                                                        sizes="(max-width: 450px) 100vw, 450px"><a
+                                                        class="image-popup zoom-icon"
+                                                        href="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/c.jpg"><i
+                                                            class="glyph-icon flaticon-add-circular-button"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="file-list-image galley-img"><img width="450" height="450"
+                                                        src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/d.jpg"
+                                                        class="attachment-small size-small" alt="" loading="lazy"
+                                                        srcset="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/d.jpg 450w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/d-420x420.jpg 420w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/d-150x150.jpg 150w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/d-300x300.jpg 300w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/d-100x100.jpg 100w"
+                                                        sizes="(max-width: 450px) 100vw, 450px"><a
+                                                        class="image-popup zoom-icon"
+                                                        href="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/d.jpg"><i
+                                                            class="glyph-icon flaticon-add-circular-button"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="file-list-image galley-img"><img width="450" height="450"
+                                                        src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/e.jpg"
+                                                        class="attachment-small size-small" alt="" loading="lazy"
+                                                        srcset="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/e.jpg 450w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/e-420x420.jpg 420w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/e-150x150.jpg 150w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/e-300x300.jpg 300w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/e-100x100.jpg 100w"
+                                                        sizes="(max-width: 450px) 100vw, 450px"><a
+                                                        class="image-popup zoom-icon"
+                                                        href="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/e.jpg"><i
+                                                            class="glyph-icon flaticon-add-circular-button"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="file-list-image galley-img"><img width="450" height="450"
+                                                        src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/f.jpg"
+                                                        class="attachment-small size-small" alt="" loading="lazy"
+                                                        srcset="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/f.jpg 450w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/f-420x420.jpg 420w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/f-150x150.jpg 150w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/f-300x300.jpg 300w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/f-100x100.jpg 100w"
+                                                        sizes="(max-width: 450px) 100vw, 450px"><a
+                                                        class="image-popup zoom-icon"
+                                                        href="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/f.jpg"><i
+                                                            class="glyph-icon flaticon-add-circular-button"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="file-list-image galley-img"><img width="450" height="450"
+                                                        src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/g.jpg"
+                                                        class="attachment-small size-small" alt="" loading="lazy"
+                                                        srcset="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/g.jpg 450w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/g-420x420.jpg 420w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/g-150x150.jpg 150w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/g-300x300.jpg 300w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/g-100x100.jpg 100w"
+                                                        sizes="(max-width: 450px) 100vw, 450px"><a
+                                                        class="image-popup zoom-icon"
+                                                        href="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/g.jpg"><i
+                                                            class="glyph-icon flaticon-add-circular-button"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="file-list-image galley-img"><img width="450" height="450"
+                                                        src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/h.jpg"
+                                                        class="attachment-small size-small" alt="" loading="lazy"
+                                                        srcset="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/h.jpg 450w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/h-420x420.jpg 420w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/h-150x150.jpg 150w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/h-300x300.jpg 300w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/h-100x100.jpg 100w"
+                                                        sizes="(max-width: 450px) 100vw, 450px"><a
+                                                        class="image-popup zoom-icon"
+                                                        href="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/h.jpg"><i
+                                                            class="glyph-icon flaticon-add-circular-button"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="jersy" class="tab-pane fade">
+                                        <div class="champion-inner">
+                                            <div class="row">
+                                                <div class="col-md-4 col-sm-6 col-xs-6 mb-30">
+                                                    <div class="champion-logo"> <img
+                                                            src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/Home-Kit.jpg"
+                                                            alt="Arsenal"></div>
+                                                    <div class="champion-details">
+                                                        <div class="year-details">
+                                                            <h3>Home Kit (2018-19)</h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 col-sm-6 col-xs-6 mb-30">
+                                                    <div class="champion-logo"> <img
+                                                            src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/04/Away-Kit.jpg"
+                                                            alt="Arsenal"></div>
+                                                    <div class="champion-details">
+                                                        <div class="year-details">
+                                                            <h3>Away Kit (2018-19)</h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clear-fix"></div>
+                            <div class="rs-blog-grid rs-blog">
+                                <div class="rs-heading style2   ">
+                                    <div class="title-inner ">
+                                        <h2 class="title title-upper">Club Videos</h2> <span class="lines-bg"></span>
+                                        <div class="title-img bottom-img"></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="blog-item col-lg-4 col-md-12 style2 ">
+                                        <div class="thumimg media-video-icon"> <a class="popup-videos"
+                                                href="https://www.youtube.com/watch?v=pH_G1f6KzfI"> <img
+                                                    src="https://img.youtube.com/vi/pH_G1f6KzfI/mqdefault.jpg"
+                                                    alt="https://img.youtube.com/vi/pH_G1f6KzfI/mqdefault.jpg"> <span><i
+                                                        class="fa fa-play" aria-hidden="true"></i></span> </a></div>
+                                    </div>
+                                    <div class="blog-item col-lg-4 col-md-12 style2 ">
+                                        <div class="thumimg media-video-icon"> <a class="popup-videos"
+                                                href="https://www.youtube.com/watch?v=1vNmYNH8d4I"> <img
+                                                    src="https://img.youtube.com/vi/1vNmYNH8d4I/mqdefault.jpg"
+                                                    alt="https://img.youtube.com/vi/1vNmYNH8d4I/mqdefault.jpg"> <span><i
+                                                        class="fa fa-play" aria-hidden="true"></i></span> </a></div>
+                                    </div>
+                                    <div class="blog-item col-lg-4 col-md-12 style2 ">
+                                        <div class="thumimg media-video-icon"> <a class="popup-videos"
+                                                href="https://www.youtube.com/watch?v=jvrayw6wANg"> <img
+                                                    src="https://img.youtube.com/vi/jvrayw6wANg/mqdefault.jpg"
+                                                    alt="https://img.youtube.com/vi/jvrayw6wANg/mqdefault.jpg"> <span><i
+                                                        class="fa fa-play" aria-hidden="true"></i></span> </a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <div class="clear-fix"></div>
+                        <div class="rs-blog-grid rs-blog ">
+                            <div class="rs-heading style2   ">
+                                <div class="title-inner ">
+                                    <h2 class="title title-upper">Club News</h2> <span class="lines-bg"></span>
+                                    <div class="title-img bottom-img"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="blog-item col-lg-4 col-md-12 style2 ">
+                                    <div class="blog-img image-scale">
+                                        <div class="image-wrap"> <a
+                                                href="https://rstheme.com/products/wordpress/khelo/club_news/ground-round-football-starts-right-here-3/">
+                                                <img width="1200" height="740"
+                                                    src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/05/post_6.jpg"
+                                                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                    alt="" loading="lazy"
+                                                    srcset="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/05/post_6.jpg 1200w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/05/post_6-300x185.jpg 300w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/05/post_6-1024x631.jpg 1024w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/05/post_6-768x474.jpg 768w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/05/post_6-255x157.jpg 255w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/05/post_6-420x259.jpg 420w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/05/post_6-600x370.jpg 600w"
+                                                    sizes="(max-width: 1200px) 100vw, 1200px"></a></div>
+                                        <div class="all-meta">
+                                            <div class="meta meta-date"> <span class="month-day">20</span> <span
+                                                    class="month-name">Jun</span></div>
+                                            <div class="meta author"><i class="glyph-icon flaticon-user-1"></i> <span
+                                                    class="author">admin</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-shadow1 blog-meta ">
+                                        <h3 class="blog-title"><a
+                                                href="https://rstheme.com/products/wordpress/khelo/club_news/ground-round-football-starts-right-here-3/">
+                                                Ground Round Football Starts Right Here</a></h3>
+                                        <div class="blog-desc"> The snatch is a wide-grip, one-move lift. The clean and
+                                            jerk is a close-grip, two-move lift. Each...</div>
+                                    </div>
+                                </div>
+                                <div class="blog-item col-lg-4 col-md-12 style2 ">
+                                    <div class="blog-img image-scale">
+                                        <div class="image-wrap"> <a
+                                                href="https://rstheme.com/products/wordpress/khelo/club_news/everything-in-soccer-starts-the-premier-league-3/">
+                                                <img width="1200" height="740"
+                                                    src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/05/post_7-1.jpg"
+                                                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                    alt="" loading="lazy"
+                                                    srcset="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/05/post_7-1.jpg 1200w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/05/post_7-1-300x185.jpg 300w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/05/post_7-1-1024x631.jpg 1024w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/05/post_7-1-768x474.jpg 768w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/05/post_7-1-255x157.jpg 255w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/05/post_7-1-420x259.jpg 420w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/05/post_7-1-600x370.jpg 600w"
+                                                    sizes="(max-width: 1200px) 100vw, 1200px"></a></div>
+                                        <div class="all-meta">
+                                            <div class="meta meta-date"> <span class="month-day">20</span> <span
+                                                    class="month-name">Jun</span></div>
+                                            <div class="meta author"><i class="glyph-icon flaticon-user-1"></i> <span
+                                                    class="author">admin</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-shadow1 blog-meta ">
+                                        <h3 class="blog-title"><a
+                                                href="https://rstheme.com/products/wordpress/khelo/club_news/everything-in-soccer-starts-the-premier-league-3/">
+                                                Everything In Soccer Starts The Premier League</a></h3>
+                                        <div class="blog-desc"> The snatch is a wide-grip, one-move lift. The clean and
+                                            jerk is a close-grip, two-move lift. Each...</div>
+                                    </div>
+                                </div>
+                                <div class="blog-item col-lg-4 col-md-12 style2 ">
+                                    <div class="blog-img image-scale">
+                                        <div class="image-wrap"> <a
+                                                href="https://rstheme.com/products/wordpress/khelo/club_news/latest-point-table-stats-for-the-premier-league-3/">
+                                                <img width="1200" height="740"
+                                                    src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/05/post_5.jpg"
+                                                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                    alt="" loading="lazy"
+                                                    srcset="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/05/post_5.jpg 1200w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/05/post_5-300x185.jpg 300w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/05/post_5-1024x631.jpg 1024w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/05/post_5-768x474.jpg 768w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/05/post_5-255x157.jpg 255w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/05/post_5-420x259.jpg 420w, https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/05/post_5-600x370.jpg 600w"
+                                                    sizes="(max-width: 1200px) 100vw, 1200px"></a></div>
+                                        <div class="all-meta">
+                                            <div class="meta meta-date"> <span class="month-day">20</span> <span
+                                                    class="month-name">Jun</span></div>
+                                            <div class="meta author"><i class="glyph-icon flaticon-user-1"></i> <span
+                                                    class="author">admin</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="bottom-shadow1 blog-meta ">
+                                        <h3 class="blog-title"><a
+                                                href="https://rstheme.com/products/wordpress/khelo/club_news/latest-point-table-stats-for-the-premier-league-3/">
+                                                Latest Point Table Stats For The Premier League</a></h3>
+                                        <div class="blog-desc"> The snatch is a wide-grip, one-move lift. The clean and
+                                            jerk is a close-grip, two-move lift. Each...</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clear-fix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="rs-footer" class=" rs-footer footer-style-1"
+        style="background-image: url('https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/05/footer2_bg.jpg'); background-position: inherit">
+        <div class="newsletter-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="newsletter-inner">
+                            <section id="mc4wp_form_widget-2" class="widget widget_mc4wp_form_widget">
+                                <script>(function () {
+                                        window.mc4wp = window.mc4wp || {
+                                            listeners: [],
+                                            forms: {
+                                                on: function (evt, cb) {
+                                                    window.mc4wp.listeners.push(
+                                                        {
+                                                            event: evt,
+                                                            callback: cb
+                                                        }
+                                                    );
+                                                }
+                                            }
+                                        }
+                                    })();</script>
+                                <form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-40" method="post" data-id="40"
+                                    data-name="Newsletter">
+                                    <div class="mc4wp-form-fields">
+                                        <div class="news-form">
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-12 newsletter-title"> <span> Subscribe Our
+                                                        Newsletter </span>
+                                                    <p> Subscribe to our newsletter for getting regular updates.</p>
+                                                </div>
+                                                <div class="col-lg-6 col-md-12 newsletter-wrap">
+                                                    <div class="news-form-fields"> <input type="submit"
+                                                            class="news-submit" value="Subscribe"> <input type="email"
+                                                            class="news-email" name="EMAIL" placeholder="EMAIL ADDRESS"
+                                                            required=""></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div><label style="display: none !important;">Leave this field empty if you're
+                                        human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1"
+                                            autocomplete="off"></label><input type="hidden" name="_mc4wp_timestamp"
+                                        value="1612712448"><input type="hidden" name="_mc4wp_form_id" value="40"><input
+                                        type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1">
+                                    <div class="mc4wp-response"></div>
+                                </form>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-sponsor">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 offset-md-2">
+                        <div class="recent-widget">
+                            <div class="rs-sponsors recent-post-widget widget clearfix ">
+                                <div class="row sponsors-grid">
+                                    <div class="col-md-3 col-sm-4 sponsor-item sponsor-space">
+                                        <div class="sponsors-img"> <a class="img-wrap" href="#" target="_blank"> <img
+                                                    width="300" height="200"
+                                                    src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/05/sponsor_8.png"
+                                                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                    alt="" loading="lazy"> </a></div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-4 sponsor-item sponsor-space">
+                                        <div class="sponsors-img"> <a class="img-wrap" href="#" target="_blank"> <img
+                                                    width="300" height="200"
+                                                    src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/05/sponsor_7.png"
+                                                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                    alt="" loading="lazy"> </a></div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-4 sponsor-item sponsor-space">
+                                        <div class="sponsors-img"> <a class="img-wrap" href="#" target="_blank"> <img
+                                                    width="300" height="200"
+                                                    src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/05/sponsor_6.png"
+                                                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                    alt="" loading="lazy"> </a></div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-4 sponsor-item sponsor-space">
+                                        <div class="sponsors-img"> <a class="img-wrap" href="#" target="_blank"> <img
+                                                    width="300" height="200"
+                                                    src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/05/sponsor_5.png"
+                                                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                    alt="" loading="lazy"> </a></div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-4 sponsor-item sponsor-space">
+                                        <div class="sponsors-img"> <a class="img-wrap" href="#" target="_blank"> <img
+                                                    width="300" height="200"
+                                                    src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/05/sponsor_4.png"
+                                                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                    alt="" loading="lazy"> </a></div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-4 sponsor-item sponsor-space">
+                                        <div class="sponsors-img"> <a class="img-wrap" href="#" target="_blank"> <img
+                                                    width="300" height="200"
+                                                    src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/05/sponsor_3.png"
+                                                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                    alt="" loading="lazy"> </a></div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-4 sponsor-item sponsor-space">
+                                        <div class="sponsors-img"> <a class="img-wrap" href="#" target="_blank"> <img
+                                                    width="300" height="200"
+                                                    src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/05/sponsor_2.png"
+                                                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                    alt="" loading="lazy"> </a></div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-4 sponsor-item sponsor-space">
+                                        <div class="sponsors-img"> <a class="img-wrap" href="#" target="_blank"> <img
+                                                    width="300" height="200"
+                                                    src="https://rstheme.com/products/wordpress/khelo/wp-content/uploads/2019/05/sponsor_1.png"
+                                                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                    alt="" loading="lazy"> </a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="copyright">
+                            <p>© 2019 <a href="http://rstheme.com/" target="_blank">RS Theme</a>. All Rights Reserved.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="footer-share">
+                            <ul>
+                                <li> <a href="#%20" target="_blank"><span><i class="fa fa-facebook"></i></span></a></li>
+                                <li> <a href="# " target="_blank"><span><i class="fa fa-twitter"></i></span></a></li>
+                                <li> <a href="# " target="_blank"><span><i class="fa fa-linkedin"></i></span></a></li>
+                                <li> <a href="# " target="_blank"><span><i
+                                                class="fa fa-google-plus-square"></i></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="scrollUp" style="display: none;"> <i class="fa fa-angle-up"></i></div>
+    <script>(function () {
+            function maybePrefixUrlField() {
+                if (this.value.trim() !== '' && this.value.indexOf('http') !== 0) {
+                    this.value = "http://" + this.value;
+                }
+            }
+
+            var urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]');
+            if (urlFields) {
+                for (var j = 0; j < urlFields.length; j++) {
+                    urlFields[j].addEventListener('blur', maybePrefixUrlField);
+                }
+            }
+        })();</script>
+    <script type="text/javascript">(function () {
+            var c = document.body.className;
+            c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+            document.body.className = c;
+        })()</script>
+    <script type="text/javascript"
+        id="contact-form-7-js-extra">var wpcf7 = { "apiSettings": { "root": "https:\/\/rstheme.com\/products\/wordpress\/khelo\/wp-json\/contact-form-7\/v1", "namespace": "contact-form-7\/v1" } };</script>
+    <script type="text/javascript"
+        id="woocommerce-js-extra">var woocommerce_params = { "ajax_url": "\/products\/wordpress\/khelo\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/products\/wordpress\/khelo\/?wc-ajax=%%endpoint%%" };</script>
+    <script type="text/javascript"
+        id="wc-cart-fragments-js-extra">var wc_cart_fragments_params = { "ajax_url": "\/products\/wordpress\/khelo\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/products\/wordpress\/khelo\/?wc-ajax=%%endpoint%%", "cart_hash_key": "wc_cart_hash_847526a4f7bfc164402a8dd00fef1666", "fragment_name": "wc_fragments_847526a4f7bfc164402a8dd00fef1666", "request_timeout": "5000" };</script>
+    <script defer=""
+        src="https://rstheme.com/products/wordpress/khelo/wp-content/cache/autoptimize/js/autoptimize_c97978fed61ca0053b174e05f1d3508b.js"></script>
+</body>
+
+</html>
