@@ -9,6 +9,19 @@ h1, h2, h3, h4, h5, h6, span, p, input, a {
     font-family: 'Cairo' !important;
 }
 
+.w-c {
+    width: fit-content !important;
+}
+
+.sidenav .offcanvas_social li a {
+    margin: 0 !important;
+}
+
+.sidenav li.nav-link-container .nav-menu-link {
+    padding: 10px !important;
+    padding-top: 13px !important;
+}
+
 .a-r-input {
     font-family: 'Cairo' !important;
     direction: rtl !important;

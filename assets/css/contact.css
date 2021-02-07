@@ -76816,7 +76816,8 @@ a:active, a:hover {
 }
 
 .sidenav li.nav-link-container .nav-menu-link {
-    padding: 13px 15px 15px 10px !important
+    padding: 10px !important;
+    padding-top: 13px !important;
 }
 
 .sidenav li.nav-link-container .nav-menu-link span.hamburger1 {
