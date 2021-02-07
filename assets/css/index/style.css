@@ -1,0 +1,5 @@
+@media (max-width: 992px) {
+    .d-b-lg {
+        flex-direction: row !important;
+    }
+}

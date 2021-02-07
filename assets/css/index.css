@@ -61028,20 +61028,21 @@ body.search-results .pagination-area .pagination {
 
 .heading_icon .title {
     position: relative;
-    padding-left: 25px;
+    padding-right: 25px;
     font-size: 22px !important
 }
 
-.heading_icon .title:before {
+.heading_icon .title:after {
     position: absolute;
     content: "";
-    left: 0;
+    right: 0;
     top: 7px;
     width: 0;
     height: 0;
     border-top: 12px solid transparent;
     border-left: 15px solid #fbc02d;
-    border-bottom: 12px solid transparent
+    border-bottom: 12px solid transparent;
+    transform: rotate(180deg);
 }
 
 .menu-area {
@@ -63999,7 +64000,8 @@ form.woocommerce-EditAccountForm fieldset {
     line-height: 40px;
     margin-bottom: 15px;
     font-size: 30px;
-    letter-spacing: 2px
+    letter-spacing: 2px;
+    text-align: right;
 }
 
 .rs-heading .title-inner .title.title-upper {
@@ -67917,7 +67919,9 @@ ul.list > li .content .title {
 }
 
 .rs-latest-news .news-normal-block .news-desc p {
-    margin-bottom: 18px
+    margin-bottom: 18p;
+    width: fit-content;
+    text-align: right;
 }
 
 .rs-latest-news .news-normal-block .news-btn a {
@@ -68019,7 +68023,8 @@ ul.list > li .content .title {
     bottom: 0;
     left: 0;
     width: 100%;
-    padding: 10px 30px
+    padding: 10px 30px;
+    direction: rtl
 }
 
 .rs-latest-news.style3 .news-normal-block .news-info .news-title {
@@ -68282,12 +68287,15 @@ ul.list > li .content .title {
 
 .rs-latest-news .latest-news-grid .featured-news-grid .news-info .news-title {
     font-size: 28px;
-    line-height: 36px !important
+    line-height: 36px !important;
+    width: fit-content;
+    text-align: right
 }
 
 .rs-latest-news .latest-news-grid .featured-news-grid .news-info .news-date {
     margin-bottom: 10px;
-    color: #fbc02d
+    color: #fbc02d;
+    width: fit-content
 }
 
 .rs-latest-news .latest-news-grid .featured-news-grid .news-info .news-date, .rs-latest-news .latest-news-grid .featured-news-grid .news-info .news-desc, .rs-latest-news .latest-news-grid .featured-news-grid .news-info .news-title {
@@ -68351,18 +68359,22 @@ ul.list > li .content .title {
     left: 0;
     width: 100%;
     padding: 10px 25px 25px;
-    color: #fff
+    color: #fff;
+    direction: rtl
 }
 
 .rs-latest-news .news-list-item .news-info-list .news-title {
     font-size: 18px;
     line-height: 27px !important;
-    margin-bottom: 0
+    margin-bottom: 0;
+    width: fit-content;
+    text-align: right
 }
 
 .rs-latest-news .news-list-item .news-info-list .news-date {
     margin-bottom: 10px;
-    color: #fbc02d
+    color: #fbc02d;
+    width: fit-content
 }
 
 .rs-latest-news .news-list-item .news-info-list .news-date, .rs-latest-news .news-list-item .news-info-list .news-desc, .rs-latest-news .news-list-item .news-info-list .news-title {
