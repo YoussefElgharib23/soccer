@@ -77416,7 +77416,7 @@ a:active, a:hover {
 }
 
 .rs-breadcrumbs .breadcrumbs span a:before, .rs-breadcrumbs .breadcrumbs-title span a:before {
-    right: 0;
+    left: 0;
     position: absolute;
     padding: 0 8px 0 0;
     content: "\f147";
