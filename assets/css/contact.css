@@ -84935,7 +84935,8 @@ body .polls-home5 .Total_Soft_Poll_Main_Div .Total_Soft_Poll_1_Quest_Div_1 span 
 
     .single-club .club-sidebar .club-details ul li {
         width: 100%;
-        display: block
+        display: block;
+        text-align: center
     }
 
     .event_counter6 h1.slider-title {
@@ -104829,4 +104830,9 @@ body.archive, body.blog, body.single {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
     padding-top: 0 !important
+}
+
+.champion-logo {
+    display: flex;
+    justify-content: center;
 }

@@ -2,4 +2,12 @@
     .d-b-lg {
         flex-direction: row !important;
     }
+
+    .d__flex__lg {
+        display: unset;
+    }
+}
+
+.d__flex__lg {
+    display: flex;
 }
