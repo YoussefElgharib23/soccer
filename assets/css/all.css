@@ -2,3 +2,8 @@
     left: 0 !important;
     right: inherit;
 }
+
+.nav-link-container .mobile-menu-link {
+    left: 0;
+    right: inherit;
+}
