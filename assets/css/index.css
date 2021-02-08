@@ -64007,6 +64007,13 @@ form.woocommerce-EditAccountForm fieldset {
     text-transform: uppercase
 }
 
+@media (max-width: 992px) {
+    .d-none-lg {
+        display: none !important;
+    }
+}
+
+
 .rs-heading .title-inner .title span.watermark {
     position: absolute;
     font-size: 80px;
