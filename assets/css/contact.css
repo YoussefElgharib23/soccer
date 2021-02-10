@@ -57605,7 +57605,8 @@ div.wpcf7 .ajax-loader {
 .rs-blog-grid.rs-blog .blog-meta .blog-title {
     line-height: 26px !important;
     font-size: 20px;
-    font-weight: 600 !important
+    font-weight: 600 !important;
+    text-align: right;
 }
 
 .rs-blog-grid.rs-blog .style1 .bottom-shadow1 {
@@ -59043,7 +59044,8 @@ body.single-fixture-results, body.woocommerce {
 
 .rs-blog .blog-item .blog-desc {
     margin: 0 0 25px;
-    clear: both
+    clear: both;
+    text-align: right;
 }
 
 .rs-blog .blog-item .blog-desc p {
@@ -59056,7 +59058,7 @@ body.single-fixture-results, body.woocommerce {
     color: #101010;
     font-size: 16px;
     position: relative;
-    padding-right: 24px
+    padding-left: 24px
 }
 
 .rs-blog .blog-item .blog-button a:before {
@@ -59068,12 +59070,17 @@ body.single-fixture-results, body.woocommerce {
     font-weight: 300;
     display: block !important;
     top: 1px;
-    right: 0
+    left: 0;
+    transform: rotate(180deg);
+}
+
+.blog-button {
+    text-align: right
 }
 
 .rs-blog .blog-item .blog-button a:hover {
     color: #fbc02d;
-    padding-right: 30px
+    padding-left: 30px
 }
 
 .rs-blog .full-layout {
