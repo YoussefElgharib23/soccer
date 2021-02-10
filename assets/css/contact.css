@@ -59527,7 +59527,8 @@ body.single-fixture-results, body.woocommerce {
     margin-bottom: 30px;
     margin-top: 40px;
     position: relative;
-    padding: 0 0 12px
+    padding: 0 0 12px;
+    text-align: right
 }
 
 .rs-blog-details #reply-title:before {
@@ -59536,7 +59537,7 @@ body.single-fixture-results, body.woocommerce {
     background: #fbc02d;
     height: 2px;
     width: 50px;
-    left: 0;
+    right: 0;
     bottom: 0;
     display: block;
     z-index: 1
@@ -75566,15 +75567,16 @@ ul.stylelisting {
 
 ul.stylelisting li {
     position: relative;
-    padding-left: 30px !important;
+    padding-right: 30px !important;
     line-height: 34px;
-    border: none !important
+    border: none !important;
+    text-align: right;
 }
 
 ul.stylelisting li:before {
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     z-index: 0;
     content: "\f058";
     font-family: FontAwesome;
