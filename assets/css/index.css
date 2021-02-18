@@ -61349,7 +61349,7 @@ ul.sidenav .menu > li.menu-item-has-children:before {
     font-family: FontAwesome;
     content: "\f107";
     position: absolute;
-    left: auto;
+    right: auto !important;
     right: 0;
     top: 11px;
     color: #222 !important;
@@ -61361,7 +61361,8 @@ ul.sidenav .menu > li.menu-item-has-children:before {
     font-size: 15px;
     display: block !important;
     cursor: pointer;
-    background: #f0f0f0
+    background: #f0f0f0;
+    margin-left: 10px;
 }
 
 .sidenav .menu > li > .sub-menu li ul {
@@ -61369,7 +61370,8 @@ ul.sidenav .menu > li.menu-item-has-children:before {
 }
 
 .sidenav .menu > li > .sub-menu li ul > li a {
-    padding-left: 60px
+    padding-right: 60px;
+    text-align: right;
 }
 
 body.logged-in ul.sidenav {
@@ -61378,7 +61380,8 @@ body.logged-in ul.sidenav {
 
 .sidenav .menu li ul.sub-menu li a {
     padding-left: 40px;
-    font-size: 13px
+    font-size: 13px;
+    text-align: right;
 }
 
 .sidenav .menu li ul.sub-menu li a:before {
