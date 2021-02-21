@@ -61393,7 +61393,6 @@ ul.sidenav .menu > li.menu-item-has-children:before {
     content: "\f107";
     position: absolute;
     left: auto;
-    right: 0;
     top: 11px;
     color: #222 !important;
     width: 30px;
@@ -61412,7 +61411,7 @@ ul.sidenav .menu > li.menu-item-has-children:before {
 }
 
 .sidenav .menu > li > .sub-menu li ul > li a {
-    padding-left: 60px
+    padding-right: 60px
 }
 
 body.logged-in ul.sidenav {
@@ -61420,7 +61419,8 @@ body.logged-in ul.sidenav {
 }
 
 .sidenav .menu li ul.sub-menu li a {
-    padding-left: 40px;
+    text-align: right;
+    padding-right: 40px;
     font-size: 13px
 }
 
@@ -82109,7 +82109,7 @@ body .polls-home5 .Total_Soft_Poll_Main_Div .Total_Soft_Poll_1_Quest_Div_1 span 
     }
 
     ul.sidenav .menu > li.menu-item-has-children:before {
-        right: 14px
+        left: 14px
     }
 
     .sidenav li.nav-link-container {
