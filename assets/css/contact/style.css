@@ -58,3 +58,13 @@ h1, h2, h3, h4, h5, h6, span, p, input, a {
     display: table;
     clear: both;
 }
+
+.d__flex__lg {
+    display: flex;
+}
+
+@media(min-width: 992px) {
+    .d-flex-lg {
+        display: initial;
+    }
+}
