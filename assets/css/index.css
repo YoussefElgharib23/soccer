@@ -104788,8 +104788,7 @@ body.archive, body.blog, body.single {
 }
 
 .menu-area .navbar ul > li, #rs-header.header-style1 .btn_quote, #rs-header .menu-cart-area, #rs-header .menu-responsive .sidebarmenu-area, #rs-header.header-transparent .btn_quote, #rs-header .menu-responsive .sidebarmenu-search .sticky_search {
-    padding-top: 30px;
-    padding-bottom: 30px
+    padding: 15px 0 !important;
 }
 
 .Total_Soft_Poll_1_Main_Div_1 {
