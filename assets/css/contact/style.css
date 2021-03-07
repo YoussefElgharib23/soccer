@@ -1,10 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
-
-h1, h2, h3, h4, h5, h6, span, p, input, a {
-    font-family: 'Cairo', sans-serif !important;
-}
-
-
 .f-c {
     font-family: 'Cairo' !important;
 }
@@ -67,4 +60,19 @@ h1, h2, h3, h4, h5, h6, span, p, input, a {
     .d-flex-lg {
         display: initial;
     }
+}
+
+.table-match {
+    border: 1px solid #cecece;
+    border-radius: 10px;
+}
+
+.table-match-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+.has-border-bottom {
+    border-bottom: 1px solid #cecece;
 }
